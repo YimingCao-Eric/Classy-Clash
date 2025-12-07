@@ -18,9 +18,21 @@ int main() {
     Enemy goblin(
         LoadTexture("characters/goblin_idle_spritesheet.png"), 
         LoadTexture("characters/goblin_run_spritesheet.png"), 
-        Vector2{100.f, 100.f}
+        Vector2{500.f, 700.f}
     );
-    goblin.setTarget(&knight);
+    Enemy slime(
+        LoadTexture("characters/slime_idle_spritesheet.png"), 
+        LoadTexture("characters/slime_run_spritesheet.png"), 
+        Vector2{800.f, 100.f}
+    );
+    Enemy* enemies[] = { 
+        &goblin, 
+        &slime 
+    };
+
+    for (auto enemy : enemies) {
+        enemy->setTarget(&knight);
+    }
 
     Prop props[2]{
        Prop({600.f, 300.f}, LoadTexture("nature_tileset/Rock.png")),
@@ -67,14 +79,15 @@ int main() {
             DrawText(knightHealth.c_str(), 55.f, 45.f, 40, RED);
         }
         
-        goblin.tick(GetFrameTime());
-        if (CheckCollisionRecs(knight.GetCollisionRec(), goblin.GetCollisionRec())) {
-                goblin.undoMovement();
+        for (auto enemy : enemies) {    
+            enemy->tick(GetFrameTime());
         }
 
         if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
-            if (CheckCollisionRecs(knight.getWeaponCollisionRec(), goblin.GetCollisionRec())) {
-                goblin.setAlive(false);
+            for (auto enemy : enemies) {
+                if (CheckCollisionRecs(knight.getWeaponCollisionRec(), enemy->GetCollisionRec())) {
+                    enemy->setAlive(false);
+                }
             }
         }
 
