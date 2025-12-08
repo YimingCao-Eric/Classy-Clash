@@ -75,7 +75,7 @@ You can modify or replace the .tmx map file (or tileset) to test different maps 
 ---
 
 ## Project Structure
-    ```bash
+    
     / (project root)
     ├── characters/         # code for characters (player, enemy, etc.)
     │   ├── BaseCharacter.h / .cpp
