@@ -62,15 +62,15 @@ You can modify or replace the .tmx map file (or tileset) to test different maps 
 
 ## Features
 
-Object-oriented C++ code: base classes, inheritance for characters/enemies/props.
+- Object-oriented C++ code: base classes, inheritance for characters/enemies/props.
 
-Tile-based world rendering using raylib — tilesets loaded from a sprite sheet.
+- Tile-based world rendering using raylib — tilesets loaded from a sprite sheet.
 
-Map editing via Tiled: supports defining terrain, positioning props, and layering.
+- Map editing via Tiled: supports defining terrain, positioning props, and layering.
 
-Simple entity system: characters, props, enemies — modular and extendable.
+- Simple entity system: characters, props, enemies — modular and extendable.
 
-Easily replaceable assets: you can swap tilesets or map files, thanks to flexible asset loading.
+- Easily replaceable assets: you can swap tilesets or map files, thanks to flexible asset loading.
 
 ---
 
