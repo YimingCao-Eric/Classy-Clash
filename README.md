@@ -75,17 +75,17 @@ You can modify or replace the .tmx map file (or tileset) to test different maps 
 ---
 
 ## Project Structure
-
-/ (project root)
-├── characters/         # code for characters (player, enemy, etc.)
-│   ├── BaseCharacter.h / .cpp
-│   ├── Character.h / .cpp
-│   └── Enemy.h / .cpp
-├── nature_tileset/     # the tileset graphics downloaded from Itch.io
-├── Prop.h / Prop.cpp   # props / environment objects
-├── main.cpp            # main entry point
-├── Makefile            # build script
-└── …                   # other source files
+    ```bash
+    / (project root)
+    ├── characters/         # code for characters (player, enemy, etc.)
+    │   ├── BaseCharacter.h / .cpp
+    │   ├── Character.h / .cpp
+    │   └── Enemy.h / .cpp
+    ├── nature_tileset/     # the tileset graphics downloaded from Itch.io
+    ├── Prop.h / Prop.cpp   # props / environment objects
+    ├── main.cpp            # main entry point
+    ├── Makefile            # build script
+    └── …                   # other source files
 
 ---
 
