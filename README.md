@@ -49,6 +49,9 @@ The goal of this project is to practise object-oriented programming (OOP) in C++
     ```bash
     make
 4. Run the compiled executable (e.g. ./classy-clash on Linux/macOS, or the .exe on Windows).
+
+---
+
 ## Usage
 
 Once the game is built and executed, the program will open a window and load the tile map designed with Tiled. The player can navigate (movement depends on the implementation) and interact with the scene.
