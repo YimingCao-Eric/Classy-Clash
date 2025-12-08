@@ -60,7 +60,7 @@ You can modify your own map and replace the *.\nature_tileset\OpenWorldMap24x24.
 
 ## Features
 
-- Object-oriented C++ code: base classes, inheritance for characters/enemies/props.
+- Object-oriented C++ code.
 
 - Tile-based world rendering using raylib — tilesets loaded from a sprite sheet.
 
