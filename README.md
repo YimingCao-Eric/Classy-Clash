@@ -10,10 +10,10 @@ The goal of this project is to practise object-oriented programming (OOP) in C++
 
 ## Motivation & Background
 
-- The codebase follows (and extends) lessons from the course GameDev.tv C++ Fundamentals: Game Programming For Beginners. :contentReference[oaicite:2]{index=2}  
+- The codebase follows (and extends) lessons from the course GameDev.tv [C++ Fundamentals: Game Programming For Beginners](https://www.udemy.com/course/cpp-fundamentals/).   
 - I use raylib for rendering and input, and standard C++ for game logic, classes, inheritance, and entity management.  
-- For level design, I rely on Tiled — a free and open-source 2D tile map editor — to create maps. :contentReference[oaicite:4]{index=4}  
-- The visual assets (tileset) come from a free pack obtained from Itch.io: *“RPG Nature Tileset”*.  
+- For level design, I rely on [Tiled](https://thorbjorn.itch.io/tiled) — a free and open-source 2D tile map editor — to create maps. 
+- The visual assets (tileset) come from a free pack obtained from Itch.io: *[“RPG Nature Tileset”](https://stealthix.itch.io/rpg-nature-tileset)*.  
 
 ---
 
