@@ -58,7 +58,9 @@ Once the game is built and executed, the program will open a window and load the
 
 You can modify or replace the .tmx map file (or tileset) to test different maps or extend the world.
 
-Features
+---
+
+## Features
 
 Object-oriented C++ code: base classes, inheritance for characters/enemies/props.
 
@@ -70,7 +72,10 @@ Simple entity system: characters, props, enemies — modular and extendable.
 
 Easily replaceable assets: you can swap tilesets or map files, thanks to flexible asset loading.
 
-Project Structure
+---
+
+## Project Structure
+
 / (project root)
 ├── characters/         # code for characters (player, enemy, etc.)
 │   ├── BaseCharacter.h / .cpp
@@ -82,7 +87,9 @@ Project Structure
 ├── Makefile            # build script
 └── …                   # other source files
 
-Assets & Credits
+---
+
+## Assets & Credits
 
 Tile graphics: RPG Nature Tileset from Itch.io (free)
 
@@ -96,7 +103,9 @@ If you use or distribute this project (or a fork), please keep the original asse
 Reddit
 +1
 
-Building / Running
+---
+
+## Building / Running
 
 To build:
 
@@ -110,13 +119,17 @@ To run (on Unix-like systems):
 
 On Windows, double-click the .exe produced or run it from command line.
 
-Dependencies
+---
+
+## Dependencies
 
 raylib (graphics, input, window)
 
 C++ standard library
 
-Configuration
+---
+
+## Configuration
 
 Map files / tilesets: you can replace files under nature_tileset/ or load new .tmx maps created with Tiled.
 
