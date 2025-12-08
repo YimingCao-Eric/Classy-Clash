@@ -101,16 +101,12 @@ If you use or distribute this project (or a fork), please keep the original asse
 
 ## Building / Running
 
-To build:
+1. To build:
     ```bash
-    make
-
-
-To run (on Unix-like systems):
+   make
+2. To run (on Unix-like systems):
     ```bash
     ./classy-clash
-
-
 On Windows, double-click the .exe produced or run it from command line.
 
 ---
