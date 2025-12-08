@@ -46,9 +46,10 @@ The goal of this project is to practise object-oriented programming (OOP) in C++
 2. Ensure raylib is installed on your system.
 
 3. From the project root, run:
-make
+    ```bash
+    make
 4. Run the compiled executable (e.g. ./classy-clash on Linux/macOS, or the .exe on Windows).
-Usage
+## Usage
 
 Once the game is built and executed, the program will open a window and load the tile map designed with Tiled. The player can navigate (movement depends on the implementation) and interact with the scene.
 
