@@ -52,9 +52,9 @@ The goal of this project is to practise object-oriented programming (OOP) in C++
 
 ## Usage
 
-Once the game is built and executed, the program will open a window and load the tile map designed with Tiled. The player can navigate (movement depends on the implementation) and interact with the scene.
+Once the game is built and executed, the program will open a window and load the map designed with Tiled. The player can navigate (movement depends on the implementation) and interact with the scene.
 
-You can modify or replace the .tmx map file (or tileset) to test different maps or extend the world.
+You can modify your own map and replace the *.\nature_tileset\OpenWorldMap24x24.png* map file to test different maps or extend the world.
 
 ---
 
