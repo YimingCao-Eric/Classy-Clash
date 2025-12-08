@@ -27,8 +27,6 @@ The goal of this project is to practise object-oriented programming (OOP) in C++
 - [Building / Running](#building--running)  
 - [Dependencies](#dependencies)  
 - [Configuration](#configuration)  
-- [Future Work](#future-work)  
-- [License & Disclaimer](#license--disclaimer)  
 
 ---
 
@@ -91,30 +89,26 @@ You can modify or replace the .tmx map file (or tileset) to test different maps 
 
 ## Assets & Credits
 
-Tile graphics: RPG Nature Tileset from Itch.io (free)
+- Tile graphics: RPG Nature Tileset from Itch.io (free)
 
-Map editor: Tiled (map files) 
-doc.mapeditor.org
-+1
+- Map editor: Tiled (map files) 
 
-Game engine / rendering: raylib
+- Game engine / rendering: raylib
 
 If you use or distribute this project (or a fork), please keep the original asset credit, and link back to where you downloaded the tileset. This is standard practice when using free assets from sites like Itch.io. Many developers credit assets in a text file or in-game credits screen. 
-Reddit
-+1
 
 ---
 
 ## Building / Running
 
 To build:
-
-make
+    ```bash
+    make
 
 
 To run (on Unix-like systems):
-
-./classy-clash
+    ```bash
+    ./classy-clash
 
 
 On Windows, double-click the .exe produced or run it from command line.
@@ -123,14 +117,14 @@ On Windows, double-click the .exe produced or run it from command line.
 
 ## Dependencies
 
-raylib (graphics, input, window)
+- raylib (graphics, input, window)
 
-C++ standard library
+- C++ standard library
 
 ---
 
 ## Configuration
 
-Map files / tilesets: you can replace files under nature_tileset/ or load new .tmx maps created with Tiled.
+- Map files / tilesets: you can replace files under nature_tileset/ or load new .tmx maps created with Tiled.
 
-Build flags: edited via Makefile.
+- Build flags: edited via Makefile.
