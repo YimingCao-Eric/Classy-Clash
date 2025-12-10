@@ -6,6 +6,8 @@ A top-down action game built with C++ and [Raylib](https://www.raylib.com/), fea
 
 Classy Clash is a simple but engaging top-down action game where you play as a knight navigating through a world filled with enemies and obstacles. The game features real-time combat, enemy AI, collision detection, and a health system.
 
+![Game Screenshot](screenshot.png)
+
 ## Motivation & Background
 
 - The codebase follows (and extends) lessons from the course GameDev.tv [C++ Fundamentals: Game Programming For Beginners](https://www.udemy.com/course/cpp-fundamentals/).   
@@ -144,6 +146,7 @@ Classy Clash/
 ├── Prop.h/cpp            # Static world objects
 ├── Makefile              # Build configuration
 ├── README.md             # This file
+├── screenshot.png        # Game screenshot
 ├── characters/           # Character sprite assets
 │   ├── knight_idle_spritesheet.png
 │   ├── knight_run_spritesheet.png
