@@ -1,6 +1,6 @@
 # Classy Clash
 
-A top-down action game built with C++ and Raylib, featuring a knight character fighting against enemies in a 2D world.
+A top-down action game built with C++ and [Raylib](https://www.raylib.com/), featuring a knight character fighting against enemies in a 2D world.
 
 ## Overview
 
