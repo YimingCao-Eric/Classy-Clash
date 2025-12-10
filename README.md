@@ -199,20 +199,6 @@ All game assets are located in:
 - `characters/` - Character spritesheets and weapons
 - `nature_tileset/` - Map tiles and environmental props
 
-## Troubleshooting
-
-### Build Issues
-
-- **Raylib not found**: Ensure Raylib is installed and the `RAYLIB_PATH` in the Makefile points to the correct location
-- **Missing textures**: Ensure asset directories (`characters/` and `nature_tileset/`) are in the same directory as the executable
-- **Linker errors**: Verify that Raylib libraries are properly linked in the Makefile
-
-### Runtime Issues
-
-- **Window doesn't open**: Check that OpenGL drivers are installed
-- **Textures not loading**: Verify asset file paths are correct relative to the executable
-- **Game runs slowly**: Try building in RELEASE mode for better performance
-
 ## License
 
 This project uses Raylib, which is licensed under the zlib/libpng license. See the Makefile for Raylib license information.
